@@ -1,0 +1,46 @@
+{
+  "private": false,
+  "name": "gatsby-context",
+  "version": "1.0.0",
+  "description": "Example of new React Context API and Gatsby",
+  "homepage": "https://github.com/monsieurnebo/gatsby-context/",
+  "bugs": {
+    "url": "https://github.com/monsieurnebo/gatsby-context/issues"
+  },
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/monsieurnebo/gatsby-context"
+  },
+  "author": {
+    "name": "Cyril Bonnet",
+    "email": "ds.cyril@gmail.com",
+    "url": "http://cyrilbonnet.fr"
+  },
+  "contributors": [
+    "Cyril Bonnet <ds.cyril@gmail.com>"
+  ],
+  "scripts": {
+    "build": "gatsby build",
+    "start": "gatsby develop"
+  },
+  "engines": {
+    "node": ">=8.11.1",
+    "npm": ">=5.6.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-decorators": "~7.0.0-beta.51",
+    "@babel/plugin-proposal-object-rest-spread": "~7.0.0-beta.51",
+    "gatsby-cli": "~2.0.0-beta.1",
+    "image-webpack-loader": "~4.3.1",
+    "sharp": "~0.20.5",
+    "style-loader": "~0.21.0",
+    "stylelint": "~9.3.0",
+    "url-loader": "~1.0.1"
+  },
+  "dependencies": {
+    "gatsby": "~2.0.0-beta.2",
+    "react": "~16.4.1",
+    "react-dom": "~16.4.1"
+  }
+}
