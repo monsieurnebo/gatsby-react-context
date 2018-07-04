@@ -2,19 +2,21 @@ import React from "react";
 import { renderToString } from "react-dom/server";
 import ContextProvider from "./src/context";
 
-exports.replaceRenderer = ({
+export const replaceRenderer = ({
   bodyComponent,
   replaceBodyHTMLString,
   setHeadComponents
 }) => {
 
-  const app = (
-    <ContextProvider>
-      {bodyComponent}
-    </ContextProvider>
-  );
+  const App = () => {
+    return (
+      <ContextProvider>
+        {bodyComponent}
+      </ContextProvider>
+    );
+  };
 
-  const body = renderToString(app);
+  const body = renderToString(<App />);
 
   replaceBodyHTMLString(body);
-}
+};
