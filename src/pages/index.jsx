@@ -16,7 +16,7 @@ export default class IndexPage extends React.PureComponent {
     return (
       <div>
         <p>
-          This basic example makes use of the <a href="https://reactjs.org/docs/context.html" rel="noopener noreferrer" target="_blank">new React Context API</a> with GatsbyJS... And makes it crash during build :(
+          This basic example makes use of the <a href="https://reactjs.org/docs/context.html" rel="noopener noreferrer" target="_blank">new React Context API</a> with GatsbyJS!
         </p>
         <h1>Is the power ON?</h1>
         <h2>{isPowerOn ? "✅ Yes!" : "🚨 Nop!"}</h2>
