@@ -1,0 +1,37 @@
+# Node - Logs
+*.log
+npm-debug.log*
+
+# Node - Dependencies
+node_modules
+
+# Node - Code coverage
+/coverage
+/packages/*/coverage
+
+# Node - Build
+/lib
+/packages/*/lib
+
+# Distribution
+/public/
+/bundle
+/dist
+/packages/*/dist
+
+# Editor - VIM
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*~
+
+# OS - OSX
+.DS_Store
+
+# OS - Windows
+Thumbs.db
+ehthumbs.db
+
+# Gatsby
+.cache/
+yarn-error.log
+yarn.lock
